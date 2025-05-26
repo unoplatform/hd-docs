@@ -14,7 +14,7 @@ You can quickly find a specific property by using the search box located below t
 
 <img src="Assets/properties-search.gif" height="600" alt="GIF showing how to Search for properties on the Properties panel" />
 
-### Smart and All tabs
+### Smart and All Tabs
 
 At the top of the Properties panel, you'll see two tabs: **Smart** and **All**.
 
