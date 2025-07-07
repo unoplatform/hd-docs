@@ -12,10 +12,23 @@ This flyout allows you to define how a property value is set. You can assign a d
 
 This is the default way of setting a property value. Depending on the property type, you'll see different editors:
 
-- For `string`, `int`, `decimal`, or similar types, a simple **TextField** is shown.
-- For layout-related properties like `Padding`, `Margin`, `CornerRadius`, and `BorderThickness`, a custom editor appears. This editor lets you configure each side (Left, Top, Right, Bottom) individually, or use shortcut modes to apply one or two values at once.
+### TextField
+
+For `string`, `int`, `decimal`, or similar types, a simple **TextField** is shown.
 
 <img src="Assets/properties-flyout.gif" height="600" alt="GIF showing the Advanced Flyout" />
+
+### Thickness and Corner Radius Editor
+
+For layout-related properties like `Padding`, `Margin`, `BorderThickness`, and `CornerRadius`, clicking the three-dot **more options** button next to the property opens a flyout with specialized editors.
+
+- **Thickness Editor:** Allows setting individual values for Left, Top, Right, and Bottom. By default, a single field sets all sides equally. Click the center button once to enable the top text field - one for horizontal (left and right) and one for vertical (top and bottom). Clicking the button again enables the four fields, letting you set individual values for Left, Top, Right, and Bottom.
+
+![Properties Thickness Editor](Assets/properties-thickness-editor.png)
+
+- **Corner Radius Editor:** Similar to the Thickness Editor, it displays four text fields, each with an icon indicating which corner (TopLeft, TopRight, BottomRight, BottomLeft) the field corresponds to. All fields are enabled by default, so you can enter values for each corner immediately.
+
+![Properties Corner Radius Editor](Assets/properties-radius-editor.png)
 
 ## Binding
 

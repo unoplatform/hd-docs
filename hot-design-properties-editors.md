@@ -34,16 +34,6 @@ For properties that accept multiple values, simply click on the label showing th
 
 <img src="Assets/properties-editors-multi-selection.gif" height="600" alt="GIF showing how to set values on a multi selection field on the Properties panel" />
 
-## Thickness and Corner Radius Editor
-
-For properties like `Padding`, `Margin`, and `BorderThickness`, you can click the three-dot “more options” button next to the property. This opens a flyout with a thickness editor. By default, only the first (left) text field will be enabled, so that you can set the same value for all sides. If you click the center toggle button once, it enables the top text field - one for horizontal (left and right) and one for vertical (top and bottom). Clicking the button again enables the four fields, letting you set individual values for Left, Top, Right, and Bottom.
-
-![Properties Thickness Editor](Assets/properties-thickness-editor.png)
-
-The `CornerRadius` editor works similarly to the thickness editor. It displays four text fields, each with an icon indicating which corner (TopLeft, TopRight, BottomRight, BottomLeft) the field corresponds to. Unlike the thickness editor, all fields are enabled by default, and there’s no central toggle button - you can freely enter values for each corner right away.
-
-![Properties Corner Radius Editor](Assets/properties-radius-editor.png)
-
 ## Alignment Editors
 
 Alignment editors display four visual options for alignment-related properties such as `VerticalAlignment`, `VerticalContentAlignment`, `HorizontalAlignment`, and `HorizontalContentAlignment`.
