@@ -94,6 +94,35 @@ This opens the editor for the `UserControl`, allowing you to modify its internal
 
 <img src="Assets/elements-edit-user-control.gif" height="600" alt="How to edit a UserControl from the Elements panel." />
 
+## NavigationBar Command Collections
+
+The `NavigationBar` control exposes two UI collections in the Elements panel:
+
+- **PrimaryCommands**  
+- **SecondaryCommands**  
+
+### Hover & Add
+
+1. **Hover** over either `PrimaryCommands` or `SecondaryCommands` in the tree and a **+** icon appears.
+
+2. **Click the +** to open a lite, dismissible flyout listing all compatible element types (e.g. `AppBarButton`, `AppBarSeparator`, `AppBarToggleButton`):
+
+   <img src="Assets/add-nav-commands-flyout.png" height="250" alt="Flyout menu open" />
+
+3. **Select** a type to insert it at the end of the collection.
+
+> **Tip**: if your collection already contains many items, the flyout will show a “Too many items” tip prompting you to drag from the Toolbox instead of scrolling through a very long list.
+
+### Reorder & Remove
+
+- **Reorder** by dragging the item up or down.
+
+- **Remove** by selecting one or more command nodes and pressing **Delete**, or by right‑clicking and choosing **Delete**.
+
+### Incompatible Drag‑and‑Drop
+
+If you attempt to drag an element that isn’t valid for a NavigationBar command (for example, a `TextBlock`), you’ll see a “no‑drop” cursor and a teaching tip explaining why.
+
 ## Get Help from Teaching Tips
 
 If an element can’t be edited, for example, if it was created entirely in C# with no associated XAML, hovering over it may display a **Teaching Tip**. They offer helpful tips and explain common restrictions.
