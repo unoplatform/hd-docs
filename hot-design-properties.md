@@ -53,6 +53,17 @@ Each property in the Properties panel includes an **Advanced** button to the rig
 
 Clicking the **Advanced** button opens a flyout with three settings for each property: Value, Binding, or Resource. For more information on how the **Advanced Flyout** works please refer to our [Advanced Flyout docs](xref:Uno.HotDesign.Properties.AdvancedFlyout).
 
+## XAML Indicator (Blue‑Dot)
+
+The blue dot next to a property name indicates “this value was set in your XAML.” Hover over it to see exactly how:
+
+- **Literal**: hard‑coded in XAML  
+- **Binding**: data‑bound in XAML  
+- **Resource**: pulled from a resource dictionary  
+- **Responsive Extension**: value provided via responsive extension
+
+<img src="Assets/xaml-indicator.gif" height="600" alt="GIF showing xaml-indicator (blue dot) tooltip" />
+
 ## Next Steps
 
 - **[Different Editors](xref:Uno.HotDesign.Properties.Editors)**
