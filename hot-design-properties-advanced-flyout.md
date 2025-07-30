@@ -30,6 +30,25 @@ For layout-related properties like `Padding`, `Margin`, `BorderThickness`, and `
 
 ![Properties Corner Radius Editor](Assets/properties-radius-editor.png)
 
+## Grid Column & Row Editors
+
+When you open the advanced flyout on a `ColumnDefinitions` or `RowDefinitions` property, you get a full table editor. Here’s what you can do:
+
+<img src="Assets/properties‑grid‑definition‑editor.png" height="400" alt="Grid ColumnDefinition Editor" />
+
+- **Reorder**  
+  Drag the ⋮⋮ handle to change the order of your rows/columns.
+
+- **Min / Size / Max**  
+  - **Min**: minimum pixel size  
+  - **Size**: choose between `Auto`, a fixed pixel value, or `*` (star) for weighted sizing  
+  - **Max**: maximum pixel size  
+
+- **Add / Remove**  
+  - Click **+** to insert a new definition below the current row  
+  - Click **–** to delete the current definition  
+  (the delete button is disabled once only one definition remains)
+
 ## Binding
 
 Binding allows for a dynamic data connection between your UI and data source. Here's a breakdown of the fields available:
