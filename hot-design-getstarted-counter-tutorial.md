@@ -15,30 +15,24 @@ This tutorial will guide you through using Hot Design to create a simple counter
   <img src="Assets/counter-app.png" alt="Counter App Preview" />
 </p>
 
+## Before You Begin
+
+This tutorial uses the [XAML + MVUX variant](xref:Uno.Workshop.Counter.XAML.MVUX). You can switch to MVVM by using [this version](xref:Uno.Workshop.Counter.XAML.MVVM) if desired. Explore other tutorial variants [here](xref:Uno.Workshop.Counter).
+
+Make sure:
+
+- Your environment is [set up](xref:Uno.GetStarted)
+
+- You're signed in with your Uno Platform account [(licensing steps)](xref:Uno.GetStarted.Licensing)
+
+- You're using Uno.Sdk 5.5 or higher and replaced `EnableHotReload()` with `UseStudio()` [(migration guide)](xref:Uno.Development.MigratingFromPreviousReleases)
+
+- You check [Hot Reload platform support](xref:Uno.Platform.Studio.HotReload.Overview)
+
 > [!NOTE]
-> This tutorial is based on the [XAML + MVUX variant](xref:Uno.Workshop.Counter.XAML.MVUX) of the Counter app tutorial. It demonstrates how to create a simple cross-platform app using Uno Platform. If you prefer to use MVVM you can still complete this **Hot Design** tutorial by switching the MVUX code, with the MVVM code from the [XAML + MVVM variant](xref:Uno.Workshop.Counter.XAML.MVVM). Explore other tutorial variants [here](xref:Uno.Workshop.Counter).
->
-> Additionally, as a general note, Hot Design can be used without selecting a specific architectural pattern, such as MVVM or MVUX, making it a versatile tool for various projects. For this particular tutorial, however, we will focus on using MVUX as an example.
+> Hot Design works independently of architectural patterns but this guide uses MVUX.
 
 [!include[hd-important-info](includes/hd-important-info.md)]
-
-## Set Up Your Environment for Hot Design
-
-> [!IMPORTANT]
-> If you're new to developing with Uno Platform, start by [setting up your environment](xref:Uno.GetStarted). Once your environment is ready, proceed directly to the next section, **Creating the Counter Application**.
-
-For existing applications, take this opportunity to update to the [latest **Uno.Sdk** version](https://www.nuget.org/packages/Uno.Sdk). Refer to our [migration guide](xref:Uno.Development.MigratingFromPreviousReleases) for upgrade steps.
-
-> [!IMPORTANT]
-> When upgrading to **Uno.Sdk 5.5 or higher**, the `EnableHotReload()` method in `App.xaml.cs` is deprecated and should be replaced with `UseStudio()`.
-
-To start using **Hot Design**, ensure you are signed in with your Uno Platform account. Follow [these instructions](xref:Uno.GetStarted.Licensing) to register and sign in.
-
-Once you're using the **latest stable 5.5 Uno.Sdk version or higher** and signed in with your Uno Platform account, you can access **Hot Design** by clicking the **flame** button in the diagnostics overlay that appears over your app.
-
-<p align="center">
-  <img src="Assets/enter-hot-design-mode.png" alt="Hot Design flame button to enter in design mode" />
-</p>
 
 ## Creating the Counter Application
 
@@ -86,8 +80,7 @@ The template will create a solution with a single cross-platform project, named 
 
 ### [Command Line](#tab/cli)
 
-> [!NOTE]
-> If you don't have the Uno Platform dotnet new templates installed, follow [these instructions](https://aka.platform.uno/dotnet-new-templates).
+Install the latest Uno Platform dotnet new templates by following [these instructions](https://aka.platform.uno/dotnet-new-templates).
 
 From the command line, run the following command:
 
@@ -105,35 +98,28 @@ First, we need to add the image file to the application. Download this [SVG imag
 
 > [!NOTE]
 > If you're working in Visual Studio, select the newly added **logo.svg** file in the **Solution Explorer**, open the **Properties** panel, and ensure the **Build Action** property is set to **`UnoImage`**. For other IDEs, no further action is required as the template automatically sets the **Build Action** to **`UnoImage`** for all files in the **Assets** folder.  
->
-> For more information on **Uno.Resizetizer** functionalities, visit [Get Started with Uno.Resizetizer](xref:Uno.Resizetizer.GettingStarted).
+
+For more information on **Uno.Resizetizer** functionalities, visit [Get Started with Uno.Resizetizer](xref:Uno.Resizetizer.GettingStarted).
 
 ## Run the app
+
+**Hot Design** relies on [Hot Reload](xref:Uno.Platform.Studio.HotReload.Overview) for updates, so be sure to check the [current support for your OS, IDE, and target platforms](xref:Uno.Platform.Studio.HotReload.Overview#supported-features-per-os).
 
 Before you run the application, switch the target platform to **Desktop** (`net9.0-desktop`) to enable Hot Design during debugging. For more information on how to switch the target platform, visit the documentation page for your IDE:
 
 - [Visual Studio](xref:Uno.GettingStarted.CreateAnApp.VS2022#debug-the-app)
+- [Rider](xref:Uno.GettingStarted.CreateAnApp.Rider#debug-the-app)
 - [VS Code](xref:Uno.GettingStarted.CreateAnApp.VSCode#debug-the-app)
   > [!IMPORTANT]
   > In the status bar at the bottom left of VS Code, ensure `Counter.csproj` is selected (by default `Counter.sln` is selected).
   >
   > ![Counter.csproj selection in Visual Studio Code](Assets/vscode-csproj-selection.png)
-- [Rider](xref:Uno.GettingStarted.CreateAnApp.Rider#debug-the-app)
-
-> [!IMPORTANT]
->
-> - **Hot Design** relies on [Hot Reload](xref:Uno.Platform.Studio.HotReload.Overview) for updates, so be sure to check the [current support for your OS, IDE, and target platforms](xref:Uno.Platform.Studio.HotReload.Overview#supported-features-per-os) before testing **with or without the debugger**.
-> - **Hot Design** is now available on all platforms. See the list of [known issues](https://aka.platform.uno/hot-design-known-issues).
 
 Now, let's run the app.
 
-## Sign in with your Uno Platform Account
-
-If is not already previously done, to start using **Hot Design**, ensure you are signed in with your Uno Platform account. Follow [these instructions](xref:Uno.GetStarted.Licensing) to register and sign in.
-
 ## Enter Hot Design Mode
 
-To start editing the UI, enter **Hot Design** by clicking the **flame** button in the diagnostics overlay that appears over your app (default position is in the top-left corner of the application window).
+To start editing the UI, enter **Hot Design** by clicking the **flame** button in the diagnostics overlay that appears over your app.
 
 > [!NOTE]
 > If you don't see the **Hot Design** flame button, ensure that you are [signed in with your Uno Platform Account](xref:Uno.GetStarted.Licensing) and using the [latest stable 5.5 Uno.Sdk version or higher](https://www.nuget.org/packages/Uno.Sdk).
@@ -142,12 +128,9 @@ To start editing the UI, enter **Hot Design** by clicking the **flame** button i
   <img src="Assets/enter-hot-design-mode.png" alt="Hot Design flame button to enter design mode" />
 </p>
 
-## Change the Layout
+## Design the UI
 
-We are all set to start adding controls to create our Counter app. Follow the steps below:
-
-> [!NOTE]
-> When making changes via **Hot Design**, the XAML will automatically update to reflect your edits. Similarly, any changes made directly to the XAML will be reflected in the design.
+When making changes via **Hot Design**, the XAML will automatically update to reflect your edits. Similarly, any changes made directly to the XAML will be reflected in Hot Design.
 
 ### Remove Existing Elements
 
@@ -176,9 +159,6 @@ We are all set to start adding controls to create our Counter app. Follow the st
 ### Add an `Image` element
 
 1. Next, add an `Image` element to the `StackPanel`. In the **Toolbox** panel, search for "Image". Once it appears in the results, drag it onto the `StackPanel` using either the **Canvas** or the **Elements** panel.
-
-    > [!NOTE]
-    > The image will appear with zero height until a source is set.
 
 1. Now that the `Image` element is added, let's set the source for our `Image` element. In the **Properties** panel, locate the `Source` property. Start typing the name of the image we previously added, and the results should appear. Select **Assets/logo.png**.
 
@@ -214,13 +194,10 @@ We are all set to start adding controls to create our Counter app. Follow the st
 
 Hot Design allows you to select multiple elements and edit common properties simultaneously. Let's try it:
 
-1. Hold the **Ctrl** key on your keyboard and click on the `Image`, the `TextBox` and the `TextBlock` (the `Button` should still be selected from the previous step).
+1. Hold the **Ctrl** key on your keyboard and click on the `Image`, the `TextBox` and the `TextBlock` (the `Button` should still be selected from the previous step) on the **Canvas** or in the **Elements** panel.
 2. In the **Properties** panel, set `HorizontalAlignment` to **Center** and `Margin` to **12**.
 
     ![Multi Selection](Assets/5-multi-selection.gif)
-
-> [!NOTE]
-> You can also use multi-selection from the **Elements** panel by holding the **Ctrl** key while clicking on each node.
 
 ### Style Picker
 
@@ -288,7 +265,6 @@ Finally, let's bind the **Command** to the `IncrementCounter` task of our ViewMo
 
 At this point, you should have a working counter application. Click the **Play** button in the **Toolbar**, adjust the step size, and click the button to see the application in action.
 
-> [!NOTE]
-> The **Play** button lets you interact with the app directly within **Hot Design**, without needing to leave the editor. Once you're done interacting with the application, you can click the **Pause** button to return to designing your application. If you wish to leave Hot Design and return to the running application, you can click the **Flame** button in the **Toolbar**.
+The **Play** button lets you interact with the app directly within **Hot Design**, without needing to leave the editor. Once you're done interacting with the application, you can click the **Pause** button to return to designing your application. If you wish to leave Hot Design and return to the running application, you can click the **Flame** button in the **Toolbar**.
 
 ![WrapUp](Assets/9-wrapup.gif)
