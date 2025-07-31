@@ -64,6 +64,16 @@ The blue dot next to a property name indicates “this value was set in your XAM
 
 <img src="Assets/xaml-indicator.gif" height="600" alt="GIF showing xaml-indicator (blue dot) tooltip" />
 
+## Attached Properties
+
+Some properties shown here aren’t defined on the control itself but come from another class—these are called **attached properties**. In the Properties grid:
+
+- They appear under a **subheader** with the owner type (e.g. **Grid**).
+- Setting a value here will **add** the attached property to your XAML automatically.
+- Their editors work just like normal properties—ints, enums, booleans, or even complex types get the appropriate control.
+
+  <img src="Assets/properties-attached-properties.png" height="600" alt="Attached properties in the Properties panel" />
+
 ## Next Steps
 
 - **[Different Editors](xref:Uno.HotDesign.Properties.Editors)**
