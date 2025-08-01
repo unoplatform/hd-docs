@@ -12,6 +12,8 @@
   href: xref:Uno.HotDesign.Elements
 - name: Canvas
   href: xref:Uno.HotDesign.Canvas
+- name: Shortcuts
+  href: xref:Uno.HotDesign.Shortcuts
 - name: Properties
   href: xref:Uno.HotDesign.Properties
   items:
