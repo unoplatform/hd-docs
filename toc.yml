@@ -2,6 +2,8 @@
   href: xref:Uno.HotDesign.Overview
 - name: Getting Started with Hot Design
   href: xref:Uno.HotDesign.GetStarted.Guide
+- name: Troubleshooting
+  href: xref:Uno.HotDesign.Troubleshooting
 - name: Counter Tutorial
   href: xref:Uno.HotDesign.GetStarted.CounterTutorial
 - name: Toolbar
