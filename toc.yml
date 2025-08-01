@@ -29,3 +29,5 @@
     href: xref:Uno.HotDesign.Properties.AdvancedFlyout.ResponsiveExtensions
   - name: Template Editor
     href: xref:Uno.HotDesign.Properties.TemplateEditor
+  - name: Resources
+    href: xref:Uno.HotDesign.Properties.Resources
