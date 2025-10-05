@@ -6,7 +6,6 @@ uid: Uno.HotDesign.Properties.Resources
 
 In Hot Design, you can assign values to properties using **resources**, which contain predefined values stored in your application that promote reuse and consistency. These can include brushes, strings, thicknesses, numbers, and more.
 
-
 ## What Are Resources?
 
 Resources are values defined in XAML using keys and are typically defined in `App.xaml`, `Page.Resources`, or `MergedDictionaries`. For example:
@@ -17,7 +16,6 @@ Resources are values defined in XAML using keys and are typically defined in `Ap
 ```xml
 <SolidColorBrush x:Key="AccentBrush" Color="#FF0078D7" />
 ```
-
 
 ## Applying a Resource
 
@@ -31,7 +29,6 @@ To assign a property from a resource, open the Advanced Flyout by clicking the t
 
 Hot Design supports auto-suggest for both `StaticResource` and `ThemeResource`, making it easier to pick from available keys without memorizing them.
 
-
 ## Resource Scope
 
 The available resource keys depend on where they're defined:
@@ -42,14 +39,12 @@ The available resource keys depend on where they're defined:
 
 > [!NOTE] Prefer ThemeResource for brushes or fonts that should adapt to theme changes.
 
-
 ## Editing or Removing a Resource
 
 To remove a resource assignment:
 
 - Reopen the Advanced Flyout and switch back to the Value tab to assign a literal value, or
 - Clear the input field in the Resource tab.
-
 
 ## Common Use Cases
 

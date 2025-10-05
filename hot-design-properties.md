@@ -70,7 +70,7 @@ Some properties shown here aren’t defined on the control itself but come from 
 
 - They appear under a **subheader** with the owner type (e.g. **Grid**).
 - Setting a value here will **add** the attached property to your XAML automatically.
-- Their editors work just like normal properties—ints, enums, booleans, or even complex types get the appropriate control.
+- Their editors work just like normal properties—`int`s, `enum`s, `bool`s, or even complex types get the appropriate control.
 
   <img src="Assets/properties-attached-properties.png" height="600" alt="Attached properties in the Properties panel" />
 

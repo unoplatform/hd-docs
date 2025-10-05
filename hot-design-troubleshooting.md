@@ -8,7 +8,7 @@ This guide provides solutions to known issues encountered when using the Hot Des
 
 ## Working with Android Emulator
 
-### Known Issue:
+### Known Issues
 
 If a user closes Hot Design Application A in the emulator and then attempts to open Application B from the emulator, Hot Design will not function correctly. To restore functionality:
 
