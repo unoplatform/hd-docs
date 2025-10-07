@@ -37,7 +37,8 @@ The available resource keys depend on where they're defined:
 - **Application-wide**: in App.xaml or globally merged dictionaries.
 - **Themed resources**: change automatically with Light/Dark mode.
 
-> [!NOTE] Prefer ThemeResource for brushes or fonts that should adapt to theme changes.
+> [!NOTE]
+> Prefer `ThemeResource` for brushes or fonts that should adapt to theme changes.
 
 ## Editing or Removing a Resource
 
