@@ -8,16 +8,12 @@ uid: Uno.HotDesign.GetStarted.Guide
 
 This guide provides the steps to set up Hot Design and introduces its key features and visual design capabilities.
 
-Use this guide to set up Hot Design and start creating and refining user interfaces efficiently and intuitively.
-
 ## Set Up Your Environment for Hot Design
 
 [!include[hd-important-info](includes/hd-important-info.md)]
 
 > [!IMPORTANT]
-> If you're new to developing with Uno Platform, make sure to set up your environment by [following our getting started guide](xref:Uno.GetStarted).
-
-To start using **Hot Design**, ensure you are signed in with your Uno Platform account. Follow [these instructions](xref:Uno.GetStarted.Licensing) to register and sign in.
+> If you're new to developing with Uno Platform, make sure to set up your environment by [following our getting started with Uno Platform guide](xref:Uno.GetStarted).
 
 ### Upgrading Existing applications
 
