@@ -23,11 +23,12 @@ Make sure:
 
 - Your environment is [set up](xref:Uno.GetStarted)
 
+- You're using **Uno.Sdk 6.0 or higher** (we recommend our newer versions to get the most out of the latest Hot Design features), by updating your project to the [latest **Uno.Sdk** version](https://www.nuget.org/packages/Uno.Sdk). For detailed steps, see our [migration guide](xref:Uno.Development.MigratingFromPreviousReleases).
+  If you’re coming from **Uno.Sdk 5.4 or lower**, note that `EnableHotReload()` in *App.xaml.cs* has been deprecated. Replace it with `UseStudio()` to keep Hot Reload working.
+
 - You're signed in with your Uno Platform account [(licensing steps)](xref:Uno.GetStarted.Licensing)
 
-- You're using Uno.Sdk 5.5 or higher and replaced `EnableHotReload()` with `UseStudio()` [(migration guide)](xref:Uno.Development.MigratingFromPreviousReleases)
-
-- You check [Hot Reload platform support](xref:Uno.Platform.Studio.HotReload.Overview)
+- You check [Hot Reload platform support](xref:Uno.Platform.Studio.HotReload.Overview) (Hot Design relies on **[Hot Reload](xref:Uno.Platform.Studio.HotReload.Overview)** for updates, so be sure to check the [current support for your OS, IDE, and target platforms](xref:Uno.Platform.Studio.HotReload.Overview#supported-features-per-os) before testing.)
 
 > [!NOTE]
 > Hot Design works independently of architectural patterns but this guide uses MVUX.
@@ -42,21 +43,27 @@ Make sure:
 - Type "Uno Platform" in the search box
 - Click **Uno Platform App**, then **Next**
 - Name the project `Counter` and click **Create**
+
 At this point you'll enter the **Uno Platform Template Wizard**, giving you options to customize the generated application. For this tutorial, we're only going to configure the presentation framework.
+
 - Select **Blank** in **Presets** selection
 - Select the **Presentation** tab and choose **MVUX**
 - Click **Create** to complete the wizard
+
 The template will create a solution with a single cross-platform project, named `Counter`, ready to run.
 
 ### [Rider](#tab/rider)
 
 - Launch **Rider** and click on **New Solution** on the Start Window
 - From the left menu, under the **Uno Platform** section, select **Uno Platform App**
+
 At this point, you'll see options for creating a new Uno app, allowing you to customize the generated application. For this tutorial, we will only configure the presentation framework.
+
 - Name the project `Counter`
 - Select **Blank** in **Presets** selection
 - Select the **Presentation** tab and choose **MVUX**
 - Click **Create** to complete the creation
+
 The template will create a solution with a single cross-platform project, named `Counter`, ready to run.
 
 ### [VS Code](#tab/vscode)
@@ -97,7 +104,7 @@ This will create a new folder called **Counter** containing the new application.
 First, we need to add the image file to the application. Download this [SVG image](https://aka.platform.uno/counter-tutorial-svg-uno-logo) (Open this [link](https://aka.platform.uno/counter-tutorial-svg-uno-logo), right-click on the SVG image and select "Save as") and add it to the **Assets** folder. Once added, rebuild the application to ensure the image is included in the application package.
 
 > [!NOTE]
-> If you're working in Visual Studio, select the newly added **logo.svg** file in the **Solution Explorer**, open the **Properties** panel, and ensure the **Build Action** property is set to **`UnoImage`**. For other IDEs, no further action is required as the template automatically sets the **Build Action** to **`UnoImage`** for all files in the **Assets** folder.  
+> If you're working in Visual Studio, select the newly added **logo.svg** file in the **Solution Explorer**, open the **Properties** panel, and ensure the **Build Action** property is set to **`UnoImage`**. For other IDEs, no further action is required as the template automatically sets the **Build Action** to **`UnoImage`** for all files in the **Assets** folder.
 
 For more information on **Uno.Resizetizer** functionalities, visit [Get Started with Uno.Resizetizer](xref:Uno.Resizetizer.GettingStarted).
 
@@ -122,7 +129,8 @@ Now, let's run the app.
 To start editing the UI, enter **Hot Design** by clicking the **flame** button in the diagnostics overlay that appears over your app.
 
 > [!NOTE]
-> If you don't see the **Hot Design** flame button, ensure that you are [signed in with your Uno Platform Account](xref:Uno.GetStarted.Licensing) and using the [latest stable 5.5 Uno.Sdk version or higher](https://www.nuget.org/packages/Uno.Sdk).
+> If you don't see the **Hot Design** flame button, ensure that you are [signed in with your Uno Platform Account](xref:Uno.GetStarted.Licensing) and using the [latest stable 6.0 Uno.Sdk version or higher](https://www.nuget.org/packages/Uno.Sdk). We recommend our newer versions to get the most out of the latest Hot Design features.
+> For detailed steps, see our [migration guide](xref:Uno.Development.MigratingFromPreviousReleases).
 
 <p align="center">
   <img src="Assets/enter-hot-design-mode.png" alt="Hot Design flame button to enter design mode" />

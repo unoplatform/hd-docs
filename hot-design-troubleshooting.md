@@ -63,7 +63,7 @@ If you encounter a problem not listed here, please [file a bug report](https://g
 
 If you encounter recurring issues or specific scenarios not covered in this guide, please consider the following:
 
-- [File a bug report](https://github.com/unoplatform/uno.studio/issues).
+- [File a bug report](https://github.com/unoplatform/studio/issues).
 - Contribute improvements to this guide through pull requests.
 - For details on how to share feedback and suggestions, see [Providing Feedback for Uno Platform Studio](xref:Uno.Platform.Studio.Feedback).
 
