@@ -7,7 +7,7 @@ uid: Uno.HotDesign.Toolbar
 The **Toolbar** gives you quick access to the most important tools while using Hot Design. Positioned at the top of the interactive canvas by default, it lets you switch modes, test your running app, adjust layout settings, toggle themes, and manage your workspace efficiently, all without stopping your design flow.
 
 <p align="center">
-  <img src="Assets/studio-toolbar.png" alt="The Hot Design Toolbar" />
+  <img src="Assets/hot-design-toolbar.png" alt="Hot Design Toolbar" Height=100 />
 </p>
 
 Sections below explain each feature available from the **Toolbar** and how it helps during your UI design session.

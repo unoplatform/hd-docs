@@ -29,12 +29,20 @@ Once you’ve updated your project and **[signed in with your Uno Platform accou
   <img src="Assets/enter-hot-design-mode.png" alt="Hot Design flame icon to enter design mode" />
 </p>
 
-## Hot Design Core Tool Panels
+## Hot Design® Agent
+
+**New in Uno Platform Studio 2.0 is the Hot Design® Agent**. An AI-powered assistant that enables rapid UX/UI creation and enhancement within your application. It leverages data contexts and live previews to help developers design, refine, and interact with user interfaces in real time, using deep knowledge of Uno Platform and your running app to simplify cross-platform .NET design.
+
+To get started with **Hot Design® Agent**, jump to the [Hot Design® Agent](xref:Uno.HotDesign.Agent) page.
+
+![Hot Design Agent Panels Highlighted](Assets/hot-design-agent-view.png)
+
+## Hot Design® Core Tool Panels
 
 Once in Hot Design, your running app becomes an interactive canvas.
 Hot Design offers an intuitive interface for designing and interacting with your app. This enables you to seamlessly create, edit, and refine your app's user interface in real-time, streamlining the design process for maximum efficiency and simplicity.
 
-![Hot Design Core Tool Panels Highlighted](Assets/hot-design-views-highlighted.png)
+![Hot Design Core Tool Panels Highlighted](Assets/hot-design-design-view.png)
 
 Here are the tool panels available on the interactive canvas:
 
@@ -67,20 +75,22 @@ This panel also allows you to search for specific properties and make adjustment
 ### Toolbar
 
 <p align="center">
-  <img src="Assets/studio-toolbar.png" alt="Hot Design Toolbar" />
+  <img src="Assets/hot-design-toolbar.png" alt="Hot Design Toolbar" Height=100/>
 </p>
 
 Located at the top of the interactive canvas, the **Toolbar** streamlines your design workflow by providing quick access to essential actions and tools, such as:
 
 - <img src="Assets/toolbar-hot-design-enter-icon.png" alt="Enter Hot Design Toolbar flame icon" height=30  />  Entering **Hot Design** mode.
 
-- <img src="Assets/toolbar-hot-design-icon.png" alt="Leave Hot Design Toolbar flame icon" height=30  />  Leaving **Hot Design** mode.
+- <img src="Assets/toolbar-hot-design-exit-icon.png" alt="Leave Hot Design Toolbar flame icon" height=30  />  Leaving **Hot Design** mode.
+
+- <img src="Assets/hot-design-design-mode-toggle.png" alt="Toggle design mode icon" height=30 />  Toggling between **Design** and **Agent** mode.
 
 - <img src="Assets/toolbar-play.png" alt="Hot Design Toolbar play icon" height=30  /><img src="Assets/toolbar-pause.png" alt="Hot Design Toolbar pause icon" height=30  />  Playing with the live running app to test functionality and pausing to return to adjusting properties, layout, and other design aspects without leaving the interactive designer.
 
 - <img src="Assets/toolbar-undo.png" alt="Hot Design Toolbar undo icon" height=30  /><img src="Assets/toolbar-redo.png" alt="Hot Design Toolbar redo icon" height=30  />   Undoing and redoing changes.
 
-- <img src="Assets/toolbar-form-factor.png" alt="Hot Design Toolbar form factor icon" height=30  />  Changing the form factor of the app to test different screen sizes.
+- <img src="Assets/toolbar-designer-settings-form-factor-icon.png" alt="Hot Design Toolbar form factor icon" height=30  />  Changing the form factor of the app to test different screen sizes.
 
 - <img src="Assets/toolbar-light-theme.png" alt="Hot Design Toolbar light theme icon" height=30  /><img src="Assets/toolbar-dark-theme.png" alt="Hot Design Toolbar dark theme icon" height=30  />   Switching between light and dark themes.
 
