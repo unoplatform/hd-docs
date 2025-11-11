@@ -25,17 +25,18 @@ By default, the agent will use the current full data context to generate UI elem
 UI can be generated for an existing screen or a new one. At any time, you can choose to start over by pressing the **New** button.
 
 Keep in mind that the generation may take some time depending on the complexity of the data context and the prompt. During this time, you can return to **Design** mode to continue working on other screens; you will be notified when the generation process is finished.
+
 <p align="center">
   <img src="Assets/hot-design-agent_activity_indicator.png" alt="Hot Design Agent Activity Indicator" Height = 100  />
 </p>
+
 When the generation is complete, the result is displayed in the Agent pane. From there, you can:
 
-1. Continue iterating on the proposed design
-2. Start a new design
-3. Return to a previous version for further refinement
+1. **Apply the newly created design**: When your design is ready, click **Apply** to generate and apply the XAML to your application.
+2. **Continue iterating on the proposed design**: Select the design you want to modify and make your changes.
+3. **Return to a previous version for further refinement**: Choose an earlier version and adjust as needed.
+4. **Start a new design**: Deselect all designs or click **New** to begin fresh.
 
-To iterate, select the design you want to modify. To create a new one, deselect all designs and begin fresh (or press the **New** button)
-
-Once you are satisfied with the design, simply click the **Apply** button to apply the XAML to your application.
+After applying your design, you’re not done yet! You can either return to **Design Mode** to explore and refine it further, or click <img src="Assets/toolbar-play.png" alt="Play icon" height="30" style="vertical-align:middle; margin-right:6px;" /> **Play** to switch to **Interactive Mode** and test the newly generated design in action. This ensures your design isn’t just static—you can interact with it, validate its behavior, and make adjustments as needed.
 
 ![Hot Design Agent Result](Assets/hot-design-agent-result.png)
