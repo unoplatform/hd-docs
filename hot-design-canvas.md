@@ -136,6 +136,8 @@ You can reposition controls directly in the layout:
 
 While dragging, a preview outline shows where the element will land and the prospective drop container is outlined with its margin and padding shown. Dropping in a new container or position moves the element in the underlying XAML and confirms the change; dropping it back where it started makes no edit at all. When the pointer is over a region with no valid drop container, the cursor indicates that dropping is not possible there.
 
+A drop target can sit **inside a user control, a data template, or a page you have not opened** — including the page hosted by a frame, before you have entered its editor. Dragging over one shows the preview against the container in there, without opening anything or changing any markup: the drag itself never moves you. The scopes needed to reach it are opened only when you drop, outermost first, and the element is added to the innermost container.
+
 A few details:
 
 - Small, involuntary pointer movements do not start a drag — releasing performs a normal selection click instead.
