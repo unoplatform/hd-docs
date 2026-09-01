@@ -184,7 +184,7 @@ Right-clicking a selectable element opens a context menu for the element under t
 
 Holding `Ctrl + Shift` while right-clicking adds advanced entries to the standard ones.
 
-Right-clicking never starts an accidental drag — the pointer and drag state are reset when the menu opens.
+Right-clicking never starts an accidental drag — the pointer and drag state are reset when the menu opens. It also never changes what is selected and never opens a scope: right-clicking an element that belongs to a deeper scope leaves the canvas where it is rather than drilling into it first.
 
 ## Double-Click Actions
 
