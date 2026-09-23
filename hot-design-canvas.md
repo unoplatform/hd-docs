@@ -89,7 +89,7 @@ Hovering a side of a margin or padding band shows that side's value (for example
 ### Adjust Spacing and Size by Dragging
 
 > [!NOTE]
-> Editing layout by dragging on the canvas is a preview feature and is off by default. Enable it for your application by adding `[assembly: PreviewFeature(PreviewFeature.CanvasDragEditing)]` (from `Uno.UI.HotDesign.Client.Logic.AppFeatures`), the same way other preview features are opted into. While it is off, a selected element still shows its outline and its margin/padding bands, but nothing on the canvas can be dragged to edit those values.
+> Editing layout by dragging on the canvas is a preview feature and is not switched on for everyone yet. Where it is off, a selected element still shows its outline and its margin and padding bands, but nothing on the canvas can be dragged to change those values — use the **Properties** panel instead.
 
 You can change these values on the canvas instead of typing them into the **Properties** panel. Select an element and drag:
 
@@ -264,11 +264,8 @@ A fixed inset is kept between the design surface and the edge of the canvas view
 ## Rulers and Guides
 
 > [!NOTE]
-> The rulers and the crosshair are preview features and are off by default. Enable them for your
-> application by adding `[assembly: PreviewFeature(PreviewFeature.CanvasRulers)]` and
-> `[assembly: PreviewFeature(PreviewFeature.CanvasCrosshair)]` (from
-> `Uno.UI.HotDesign.Client.Logic.AppFeatures`), the same way other preview features are opted into.
-> The crosshair needs the rulers: on its own it is not offered. While a feature is off, its entry is
+> The rulers and the crosshair are preview features and are not switched on for everyone yet. The
+> crosshair needs the rulers, so on its own it is never offered. Where a feature is off, its entry is
 > absent from the **Windows** menu and its shortcut does nothing.
 
 The canvas is framed by **rulers** — one along the top, one down the left. Press `Ctrl + R` to turn them
