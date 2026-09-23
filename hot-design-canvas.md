@@ -194,12 +194,19 @@ Double-clicking on the canvas navigates the editing context:
 
 | Double-click on | Result |
 | --- | --- |
-| An item generated from a `DataTemplate` | Opens that template in the [Template Editor](xref:Uno.HotDesign.Properties.TemplateEditor) |
 | A `UserControl` belonging to your project | Opens it in its own editing scope |
 | An area outside the current editor's content | Closes the current editor and returns to the parent scope |
 
 Holding `Alt` suppresses all of these. Two `Alt` + clicks in quick succession are a step through the
 parent chain, not a request to open an editor, so they never navigate by accident.
+
+**Double-clicking an item generated from a `DataTemplate` does nothing extra** — it behaves like a
+single click. A click already reaches the elements inside a drawn template: it opens the template's
+scope on the way and selects the element under the pointer, so there is nothing left for a second
+click to do. To open a template *itself* — including one whose list has drawn no items yet — use the
+**Create** / **Edit** button in the **Properties** panel or the context menu's
+**Edit \[\<template property>]** entry. See the
+[Template Editor](xref:Uno.HotDesign.Properties.TemplateEditor).
 
 ## Edit a UserControl from the Canvas
 

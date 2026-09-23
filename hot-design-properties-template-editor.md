@@ -12,9 +12,14 @@ To open the Template Editor, click the **Create** button next to the property in
 
 <img src="Assets/properties-editor-template-editor.png" alt="Screenshot showing how to enter the Template Editor" />
 
+> [!TIP]
+> To edit an element *inside* a drawn template, you do not have to open the template first — just
+> **click that element on the canvas**. The click opens the template's scope on the way and selects
+> the element you clicked. Opening the template itself, as below, is what you need when the template
+> has drawn nothing yet — an empty list, or a `ContentTemplate` on a control with no content.
+
 You can also reach a template without going through the Properties panel:
 
-- **Double-click** an item on the canvas that was generated from the template.
 - **Right-click** an element inside the template and choose **Edit \[\<template property>]**.
 - Pick the template from the [Scope Selector](xref:Uno.HotDesign.ScopeSelector) tree.
 
