@@ -28,6 +28,16 @@ These are known, intentional boundaries of the current release rather than defec
 
 ### All Platforms
 
+#### A tip says the app was started without the Uno tooling
+
+- **Description:** A tip appears beside the Hot Reload indicator saying the app is running but the developer setup is not complete, and offering the Uno Platform extension for Visual Studio, Visual Studio Code or Rider, and the Uno MCPs.
+- **Cause:** The app was started directly — for example with `dotnet run` from a terminal — rather than by the Uno Platform extension for Visual Studio, Visual Studio Code or Rider, or by the Uno App MCP. A terminal hosted inside an IDE still counts as a direct start: the IDE is running, but it did not start the app.
+- **Solution:**
+  - Choose your IDE in the tip to open its getting started guide, then install the extension and start the app from the IDE, or
+  - Choose **Setup MCPs** to open the Uno Platform MCP page and start the app through the Uno App MCP.
+  - The tip is shown once and does not come back. Close it with **Not now**.
+  - If you are unsure which tool the app credits with starting it, the application log says so at startup: `Application launched by Direct.` — or `VisualStudio`, `VisualStudioCode`, `Rider`, `UnoAppMcp`, or `Unknown` when the platform cannot report it.
+
 #### Previews are missing and the build reports HDSG002
 
 - **Description:** The **Previews** panel cannot resolve your app's previews folder, the **Add preview** action is unavailable, and the build emits warning **HDSG002**.
