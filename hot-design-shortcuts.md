@@ -18,6 +18,8 @@ On macOS, use `Cmd` wherever `Ctrl` is listed.
 | Duplicate selection   | Ctrl + Drag                 |
 | Multi-select elements | Ctrl + Click                |
 
+In [read-only mode](xref:Uno.HotDesign.ReadOnlyMode), Delete, Undo and Redo do nothing.
+
 ## Element Selection & Navigation
 
 | Action                                  | Shortcut         |

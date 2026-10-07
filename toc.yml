@@ -22,6 +22,8 @@
   href: xref:Uno.HotDesign.Previews
 - name: Shortcuts
   href: xref:Uno.HotDesign.Shortcuts
+- name: Read-only Mode
+  href: xref:Uno.HotDesign.ReadOnlyMode
 - name: Properties
   href: xref:Uno.HotDesign.Properties
   items:
