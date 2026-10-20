@@ -56,7 +56,7 @@ The button is **hidden** while the system cannot be used at all — while the de
 > [!NOTE]
 > Hot Design also needs the Hot Reload engine to be ready. Until it first becomes ready, the status stays *Initializing*; once it has, that readiness is latched, so ordinary background reloads do not push the status back.
 >
-> An application targeting a framework older than **.NET 9** cannot enter Hot Design, and a message explains that .NET 9 or later is required.
+> An application targeting a framework older than **.NET 10** cannot enter Hot Design, and a message explains that .NET 10 or later is required.
 
 ### What Happens the First Time
 

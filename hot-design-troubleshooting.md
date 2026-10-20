@@ -13,7 +13,7 @@ These are known, intentional boundaries of the current release rather than defec
 
 | Area | Limitation |
 | --- | --- |
-| Project style | Hot Design supports **XAML** only. C# Markup is not supported, and .NET 9 or later is required. |
+| Project style | Hot Design supports **XAML** only. C# Markup is not supported, and .NET 10 or later is required. |
 | Target framework | Not available for the WinAppSDK target framework (`netX.0-windowsX.X.X`). |
 | Flyouts | Editing *nested* flyouts is not supported. See [Edit Flyouts from the Canvas](xref:Uno.HotDesign.Canvas#edit-flyouts-from-the-canvas). |
 | External tool window | Drag-and-drop from the Toolbox into the running app is not supported; zoom, scroll, and form factor are unavailable; and [Previews](xref:Uno.HotDesign.Previews) mode is not available — the canvas is switched back to **Application** mode. Use double-click insertion or drop onto the **Elements** tree instead. |

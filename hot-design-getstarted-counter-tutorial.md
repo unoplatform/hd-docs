@@ -112,7 +112,7 @@ For more information on **Uno.Resizetizer** functionalities, visit [Get Started 
 
 **Hot Design** relies on [Hot Reload](xref:Uno.Platform.Studio.HotReload.Overview) for updates, so be sure to check the [current support for your OS, IDE, and target platforms](xref:Uno.Platform.Studio.HotReload.Overview#supported-features-per-os).
 
-Before you run the application, switch the target platform to **Desktop** (`net9.0-desktop`) to enable Hot Design during debugging. For more information on how to switch the target platform, visit the documentation page for your IDE:
+Before you run the application, switch the target platform to **Desktop** (`net10.0-desktop`) to enable Hot Design during debugging. For more information on how to switch the target platform, visit the documentation page for your IDE:
 
 - [Visual Studio](xref:Uno.GettingStarted.CreateAnApp.VS2022#debug-the-app)
 - [Rider](xref:Uno.GettingStarted.CreateAnApp.Rider#debug-the-app)
