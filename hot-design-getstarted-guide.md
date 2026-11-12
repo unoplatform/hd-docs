@@ -121,11 +121,17 @@ This panel also allows you to search for specific properties and make adjustment
 
 ### Previews
 
-A narrow navigation bar down the left edge switches between two editing contexts: **Application** — your live running app, described above — and **[Previews](xref:Uno.HotDesign.Previews)**.
+A narrow navigation bar down the left edge switches between editing contexts: **Application** — your live running app, described above — and **[Previews](xref:Uno.HotDesign.Previews)**.
 
 Selecting **Previews** swaps the **Toolbox** and **Elements** panels for the **Previews** panel, a browsable tree of every previewable piece of UI in your app: pages, `UserControl`s, controls, data templates, and styled variants. Selecting one renders it on the canvas on its own, so you can design a component in a specific data state without navigating your app to the screen that uses it.
 
 [➜ Learn more about Previews](xref:Uno.HotDesign.Previews)
+
+### Theme
+
+Where your app applies a design system, the navigation bar can also carry **[Theme](xref:Uno.HotDesign.Themes)** — its article says when it appears. It replaces the canvas with a view of that design system — the controls it dresses shown in light and dark, its color palette, and its semantic type scale — all rendered by your running app. The **Properties** panel beside it is where you change its seed colors, shapes, spacing, density and typeface.
+
+[➜ Learn more about Theme](xref:Uno.HotDesign.Themes)
 
 ### Toolbar
 
@@ -269,7 +275,7 @@ Your designer setup survives closing and restarting your app:
 | Setting | Behavior |
 | --- | --- |
 | Active state | Hot Design re-enters automatically if it was active when your app closed |
-| Application / Previews mode | Restored |
+| Application / Previews / Theme mode | Restored |
 | Visible tool panels | Restored |
 | Tooling placement (in-app / external) | Restored |
 | Canvas size, zoom, auto-fit | Restored per editing context |

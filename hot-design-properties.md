@@ -8,7 +8,7 @@ uid: Uno.HotDesign.Properties
 
 The Properties panel allows you to view and edit the attributes of any element selected on the canvas or in the Elements panel. As soon as an element is selected, its properties are loaded into the Properties panel, allowing you to make changes based on the property's type and expected value.
 
-When nothing is selected, the panel shows a **No selection** message inviting you to select an element on the canvas or from the Elements panel.
+When nothing is selected, the panel shows a **No selection** message inviting you to select an element on the canvas or from the Elements panel. The one place the panel shows something other than an element is [Theme](xref:Uno.HotDesign.Themes) mode, where it shows your design system's settings; back in **Application** or **Previews** it follows the canvas selection again.
 
 Once an element is selected, the panel is laid out as:
 

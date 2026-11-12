@@ -8,7 +8,7 @@ The **Canvas** is the central design surface where you build and interact with y
 
 Whether you're adjusting layout, editing a `UserControl`, or testing structure with live feedback, the Canvas helps you work faster and more intuitively.
 
-The Canvas shows your running app in **Application** mode. Switching to **Previews** mode on the left navigation bar shows your [previews](xref:Uno.HotDesign.Previews) on the same surface instead.
+The Canvas shows your running app in **Application** mode. Switching to **Previews** mode on the left navigation bar shows your [previews](xref:Uno.HotDesign.Previews) on the same surface instead, and switching to **[Theme](xref:Uno.HotDesign.Themes)** replaces the Canvas with your design system.
 
 ## Zoom, Scroll, and Pan
 

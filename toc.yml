@@ -20,6 +20,8 @@
   href: xref:Uno.HotDesign.Canvas
 - name: Previews
   href: xref:Uno.HotDesign.Previews
+- name: Theme
+  href: xref:Uno.HotDesign.Themes
 - name: Shortcuts
   href: xref:Uno.HotDesign.Shortcuts
 - name: Read-only Mode

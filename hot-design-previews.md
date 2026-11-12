@@ -14,10 +14,12 @@ The more previews your project has, the easier it is to catch a layout or stylin
 
 ## Switch between your app and your previews
 
-When Hot Design is active, a narrow **navigation bar** runs down the left edge of the window with two entries:
+When Hot Design is active, a narrow **navigation bar** runs down the left edge of the window with an entry per mode:
 
 - **Application** — design the live running app, as described in [Canvas](xref:Uno.HotDesign.Canvas).
 - **Previews** — design your previews on the same canvas.
+
+Where it is available, **[Theme](xref:Uno.HotDesign.Themes)** appears there too.
 
 Selecting **Previews** slides the **Toolbox** and **Elements** panels out and the **Previews** panel in, and shows previews on the canvas instead of the running app. Selecting **Application** brings your app and those panels back.
 

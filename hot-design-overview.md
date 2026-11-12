@@ -45,6 +45,7 @@ Together with Hot Reload, Design-to-Code, and the Uno Platform MCPs, these tools
 - **Design on Remote Devices**: Fine-tune your UI directly on remote devices or emulators, instantly seeing changes without the need for constant redeployment.
 - **Simplify Property Management**: Use Smart Properties to quickly find, modify, and bind key UI properties without leaving the live design environment, saving time and effort.
 - **Design Components in Isolation**: Use **Previews** to open a single control, page, `UserControl`, data template, or styled variant on its own, in the data state you care about — without navigating your app to the screen that uses it.
+- **See and Shape Your Design System**: Use **Theme** to review the controls, palette, and type scale your design system produces, rendered live by your running app, and adjust its seed colors, shapes, spacing, density and typeface with the change applied at once.
 
 ## Why Hot Design<sup>®</sup>?
 
@@ -72,6 +73,7 @@ By simplifying UI development and accelerating your workflow, **Hot Design** hel
 ### Components
 
 - **[Previews](xref:Uno.HotDesign.Previews)** — Design a single component in isolation, in the data state you choose
+- **[Theme](xref:Uno.HotDesign.Themes)** — Review the design system your app applies — its controls, palette, and type scale — and adjust it
 
 ### Reference
 

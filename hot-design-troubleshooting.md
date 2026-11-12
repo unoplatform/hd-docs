@@ -17,6 +17,7 @@ These are known, intentional boundaries of the current release rather than defec
 | Target framework | Not available for the WinAppSDK target framework (`netX.0-windowsX.X.X`). |
 | Flyouts | Editing *nested* flyouts is not supported. See [Edit Flyouts from the Canvas](xref:Uno.HotDesign.Canvas#edit-flyouts-from-the-canvas). |
 | External tool window | Drag-and-drop from the Toolbox into the running app is not supported; zoom, scroll, and form factor are unavailable; and [Previews](xref:Uno.HotDesign.Previews) mode is not available — the canvas is switched back to **Application** mode. Use double-click insertion or drop onto the **Elements** tree instead. |
+| Theme | The design system's settings edit the **base** theme. An override declared in your app takes priority, so an overridden change is saved but not visible, and nothing says so — see [On local overrides](xref:Uno.HotDesign.Themes#on-local-overrides). |
 | Previews | A preview whose content declares an `x:Name` cannot be duplicated. Hot Design explains this and writes nothing rather than producing invalid XAML. |
 | Previews | Adding and duplicating previews need the previews feature grant and a resolvable previews folder. Where either is missing — including when Hot Design runs nested inside Studio Live — the **Add** and **Duplicate** actions are hidden while browsing keeps working. |
 | Previews | A `Style` added to your app's resources from **C# code** appears on the **System** tab rather than **App**, because it carries no XAML source identity and so is not editable in the designer. |
