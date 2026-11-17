@@ -24,8 +24,7 @@ Read-only mode opens Hot Design for looking, not editing. Use it to walk someone
 - Property values, collection items and theme properties cannot be changed.
 - Previews cannot be added, duplicated, renamed or deleted.
 - **Undo** and **Redo** are hidden, and their shortcuts do nothing.
-
-**Agent** mode and the chat stay available, but any change they would make to the app is refused.
+- Hot Design stays in **Design** mode. The **Design** and **Agent** switch is hidden, and **Agent** mode cannot be entered.
 
 Read-only mode does not change which Hot Design features you are licensed for. A feature you do not have stays unavailable, and a feature you do have is shown without its editing actions.
 
